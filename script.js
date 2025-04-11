@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const windSpan = document.getElementById("wind");
 
   // Replace with your API key and endpoint
-  const API_KEY = 'YOUR_API_KEY'; // e.g., from OpenWeatherMap
+  const API_KEY = '655b8dc70cdfccb236ba91a62f686d54'; // e.g., from OpenWeatherMap
   const LAT = 28.6139; // Example: Delhi latitude
   const LON = 77.2090; // Delhi longitude
 
