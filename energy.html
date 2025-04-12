@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Energy Estimation</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Energy Estimation Dashboard</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="energy.html">Energy</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="energy-estimate">
+      <h2>Live Renewable Energy Estimates</h2>
+      <p><strong>Solar Panel Output:</strong> <span id="solarEnergy">Calculating...</span> kW</p>
+      <p><strong>Windmill Output:</strong> <span id="windEnergy">Calculating...</span> kW</p>
+
+      <div class="charts">
+        <canvas id="solarChart" width="400" height="200"></canvas>
+        <canvas id="windChart" width="400" height="200"></canvas>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Team Sec C Bois</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
